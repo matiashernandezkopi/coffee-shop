@@ -1,13 +1,13 @@
 export const testimonials = [
   {
     name: "James Hoffmann",
-    img: "https://example.com/james.jpg",
+    img: "/james.jpg",
     quote: "The espresso here is exceptionally balanced.",
     favorite: "espresso",
   },
   {
     name: "Emma Chamberlain",
-    img: "https://example.com/emma.jpg",
+    img: "/emma.jpg",
     quote: "Cold Brew all day. Smooth and perfect.",
     favorite: "coldBrew",
   },

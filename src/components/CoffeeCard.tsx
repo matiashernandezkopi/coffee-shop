@@ -19,7 +19,7 @@ export const CoffeeCard = ({ coffee }: {coffee: Coffee}) => {
       <img
         src={coffee.img}
         alt={coffee.name}
-        className="h-48 w-full object-cover transition group-hover:scale-105"
+        className="h-48 mx-auto object-cover transition group-hover:scale-105"
       />
 
       {/* Overlay hover */}

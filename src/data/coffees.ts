@@ -1,13 +1,12 @@
 // coffees.ts
 
-import type { Coffee } from "../store/coffeeModalStore";
-
+import type { Coffee } from "../types";
 
 export const coffees: Record<string, Coffee> = {
   espresso: {
     id: "coffee_01",
     name: "Espresso",
-    img: "https://example.com/images/espresso.jpg",
+    img: "/espresso.png",
     description:
       "A bold and intense coffee with a rich aroma and a thick crema.",
     tags: ["strong", "classic", "italian"],
@@ -51,7 +50,7 @@ export const coffees: Record<string, Coffee> = {
   americano: {
     id: "coffee_02",
     name: "Americano",
-    img: "https://example.com/images/americano.jpg",
+    img: "/americano.png",
     description:
       "A smooth coffee made by diluting espresso with hot water.",
     tags: ["smooth", "hot"],
@@ -90,7 +89,7 @@ export const coffees: Record<string, Coffee> = {
   latte: {
     id: "coffee_03",
     name: "Latte",
-    img: "https://example.com/images/latte.jpg",
+    img: "/latte.png",
     description:
       "A creamy coffee with a smooth and balanced flavor.",
     tags: ["milky", "smooth"],
@@ -129,7 +128,7 @@ export const coffees: Record<string, Coffee> = {
   cappuccino: {
     id: "coffee_04",
     name: "Cappuccino",
-    img: "https://example.com/images/cappuccino.jpg",
+    img: "/cappuccino.png",
     description:
       "A balanced coffee with equal parts of espresso, milk, and foam.",
     tags: ["frothy", "classic"],
@@ -168,7 +167,7 @@ export const coffees: Record<string, Coffee> = {
   coldBrew: {
     id: "coffee_05",
     name: "Cold Brew",
-    img: "https://example.com/images/coldbrew.jpg",
+    img: "/coldbrew.png",
     description:
       "A smooth, low-acidity coffee brewed slowly with cold water.",
     tags: ["cold", "smooth"],
